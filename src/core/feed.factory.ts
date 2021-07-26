@@ -36,6 +36,7 @@ import { plainToClassFromExist } from 'class-transformer';
 import * as Chance from 'chance';
 import { PostsInsightsFeedOptions, TimelineFeedReason, IgAppModule } from '../types';
 import { UserStoryFeed } from '../feeds/user-story.feed';
+import { ClipsFeed } from '../feeds/clips.feed';
 import { ListReelMediaViewerFeed } from '../feeds/list-reel-media-viewer.feed';
 import { MediaInlineChildCommentsFeed } from '../feeds/media.inline-child-comments.feed';
 import { MediaStickerResponsesFeed } from '../feeds/media.sticker-responses.feed';
@@ -120,6 +121,12 @@ export class FeedFactory {
 
   public user(id: string | number): UserFeed {
     const feed = new UserFeed(this.client);
+    feed.id = id;
+    return feed;
+  }
+
+  public clips(id: string | number): ClipsFeed {
+    const feed = new ClipsFeed(this.client);
     feed.id = id;
     return feed;
   }
