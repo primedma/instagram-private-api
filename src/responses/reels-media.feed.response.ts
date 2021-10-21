@@ -35,6 +35,9 @@ export interface ReelsMediaFeedResponseFriendshipStatus {
   outgoing_request: boolean;
   is_bestie: boolean;
 }
+export interface ReelsMediaFeedResponseStoryLinkStickersItem {
+  any: any;
+}
 export interface ReelsMediaFeedResponseItem {
   taken_at: number;
   pk: string;
@@ -72,6 +75,7 @@ export interface ReelsMediaFeedResponseItem {
   ad_action?: string;
   link_text?: string;
   story_cta?: ReelsMediaFeedResponseStoryCtaItem[];
+  story_link_stickers?: ReelsMediaFeedResponseStoryLinkStickersItem[];
   imported_taken_at?: number;
   story_polls?: ReelsMediaFeedResponseStoryPollsItem[];
   story_questions?: ReelsMediaFeedResponseStoryQuestionsItem[];

@@ -2,6 +2,7 @@ import { MediaConfigureOptions } from './media.configure.options';
 import { MediaConfigureVideoOptions } from './media.configure-video.options';
 
 export interface MediaConfigureStoryBaseOptions {
+  story_link_stickers?: any;
   story_media_creation_date?: string;
   client_shared_at?: string;
   audience?: 'besties';
@@ -79,6 +80,11 @@ export interface StorySticker {
 export interface StoryCta {
   links: [{ webUri: string }];
 }
+
+export interface StoryLinkStickers {
+  any: any;
+}
+
 
 export interface StoryAttachedMedia extends StorySticker {
   media_id: string;

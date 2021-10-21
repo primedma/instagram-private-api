@@ -414,6 +414,7 @@ export class MediaRepository extends Repository {
     form.story_countdowns = serialize(form.story_countdowns);
     form.attached_media = serialize(form.attached_media);
     form.story_cta = serialize(form.story_cta);
+    form.story_link_stickers = serialize(form.story_link_stickers);
     form.story_chats = serialize(form.story_chats);
     form.story_quizs = serialize(form.story_quizs);
   }

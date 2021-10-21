@@ -37,6 +37,7 @@
 - [story\_chats](MediaConfigureStoryBaseOptions.md#story_chats)
 - [story\_countdowns](MediaConfigureStoryBaseOptions.md#story_countdowns)
 - [story\_cta](MediaConfigureStoryBaseOptions.md#story_cta)
+- [story\_link\_stickers](MediaConfigureStoryBaseOptions.md#story_link_stickers)
 - [story\_hashtags](MediaConfigureStoryBaseOptions.md#story_hashtags)
 - [story\_locations](MediaConfigureStoryBaseOptions.md#story_locations)
 - [story\_media\_creation\_date](MediaConfigureStoryBaseOptions.md#story_media_creation_date)
