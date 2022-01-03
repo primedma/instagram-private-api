@@ -2,7 +2,6 @@ import { MediaConfigureOptions } from './media.configure.options';
 import { MediaConfigureVideoOptions } from './media.configure-video.options';
 
 export interface MediaConfigureStoryBaseOptions {
-  story_link_stickers?: any;
   story_media_creation_date?: string;
   client_shared_at?: string;
   audience?: 'besties';
@@ -25,6 +24,7 @@ export interface MediaConfigureStoryBaseOptions {
 
   // caption has to be set
   story_hashtags?: StoryHashtag[] | string;
+  story_link_stickers?: any[];
   // if this is set, the geotag has to be set!
   story_locations?: [StoryLocation] | string;
   geotag_enabled?: '1' | '0';
@@ -81,7 +81,7 @@ export interface StoryCta {
   links: [{ webUri: string }];
 }
 
-export interface StoryLinkStickers {
+export interface StoryLinkSticker {
   any: any;
 }
 

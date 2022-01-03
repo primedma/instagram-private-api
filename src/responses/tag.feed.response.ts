@@ -176,6 +176,7 @@ export interface TagFeedResponseItemsItem {
   can_reshare?: boolean;
   can_reply?: boolean;
   story_hashtags?: TagFeedResponseStoryHashtagsItem[];
+  story_link_stickers?: TagFeedResponseStoryLinkStickersItem[];
   creative_config?: TagFeedResponseCreative_config;
   supports_reel_reactions?: boolean;
   show_one_tap_fb_share_tooltip?: boolean;
@@ -250,6 +251,18 @@ export interface TagFeedResponseStoryHashtagsItem {
   is_pinned: number;
   is_hidden: number;
   hashtag: TagFeedResponseHashtag;
+}
+
+export interface TagFeedResponseStoryLinkStickersItem {
+  x: string | number;
+  y: string | number;
+  z: number;
+  width: string | number;
+  height: string | number;
+  rotation: string | number;
+  is_pinned: number;
+  is_hidden: number;
+  story_link: any;
 }
 export interface TagFeedResponseHashtag {
   name: string;

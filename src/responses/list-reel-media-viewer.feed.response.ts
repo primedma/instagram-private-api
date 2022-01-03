@@ -52,6 +52,7 @@ export interface ListReelMediaViewerFeedResponseUpdated_media {
   can_reply: boolean;
   is_pride_media: boolean;
   story_hashtags: ListReelMediaViewerFeedResponseStoryHashtagsItem[];
+  story_link_stickers: ListReelMediaViewerFeedResponseStoryLinkStickersItem[];
   creative_config: ListReelMediaViewerFeedResponseCreative_config;
   reel_mentions: ListReelMediaViewerFeedResponseReelMentionsItem[];
   story_locations: ListReelMediaViewerFeedResponseStoryLocationsItem[];
@@ -141,6 +142,19 @@ export interface ListReelMediaViewerFeedResponseStoryHashtagsItem {
   is_hidden: number;
   is_sticker: number;
   hashtag: ListReelMediaViewerFeedResponseHashtag;
+}
+
+export interface ListReelMediaViewerFeedResponseStoryLinkStickersItem {
+  x: number;
+  y: number;
+  z: number;
+  width: number;
+  height: string;
+  rotation: number;
+  is_pinned: number;
+  is_hidden: number;
+  is_sticker: number;
+  story_link: any;
 }
 export interface ListReelMediaViewerFeedResponseHashtag {
   name: string;

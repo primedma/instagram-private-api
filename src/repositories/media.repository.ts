@@ -405,6 +405,7 @@ export class MediaRepository extends Repository {
       }
       return obj;
     };
+    form.story_link_stickers = serialize(form.story_link_stickers);
     form.story_hashtags = serialize(form.story_hashtags);
     form.story_locations = serialize(form.story_locations);
     form.reel_mentions = serialize(form.reel_mentions);

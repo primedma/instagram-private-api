@@ -91,6 +91,7 @@ export interface LocationRepositoryStoryResponseItemsItem {
   has_audio?: boolean;
   video_duration?: number;
   story_hashtags?: LocationRepositoryStoryResponseStoryHashtagsItem[];
+  story_link_stickers?: LocationRepositoryStoryResponseStoryLinkStickersItem[];
   reel_mentions?: LocationRepositoryStoryResponseReelMentionsItem[];
 }
 export interface LocationRepositoryStoryResponseImage_versions2 {
@@ -144,6 +145,19 @@ export interface LocationRepositoryStoryResponseStoryHashtagsItem {
   is_hidden: number;
   is_sticker: number;
   hashtag: LocationRepositoryStoryResponseHashtag;
+}
+
+export interface LocationRepositoryStoryResponseStoryLinkStickersItem {
+  x: string;
+  y: string;
+  z: number;
+  width: string;
+  height: string;
+  rotation: number;
+  is_pinned: number;
+  is_hidden: number;
+  is_sticker: number;
+  story_link: any;
 }
 export interface LocationRepositoryStoryResponseHashtag {
   name: string;
