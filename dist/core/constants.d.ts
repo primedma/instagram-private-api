@@ -1,5 +1,5 @@
-export declare const APP_VERSION = '227.0.0.12.117';
-export declare const APP_VERSION_CODE = '323703830';
+export declare const APP_VERSION = '121.0.0.29.119';
+export declare const APP_VERSION_CODE = '185203708';
 export declare const SIGNATURE_KEY = '9193488027538fd3450b83b7d05286d4ca9599a0f7eeed90d8c85925698a05dc';
 export declare const BREADCRUMB_KEY = 'iN4$aGr0m';
 export declare const SIGNATURE_VERSION = '4';

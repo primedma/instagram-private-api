@@ -1,8 +1,8 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
 exports.WEBHOST = exports.HOST = exports.WEB_HOSTNAME = exports.HOSTNAME = exports.BLOKS_VERSION_ID = exports.FACEBOOK_ORCA_APPLICATION_ID = exports.FACEBOOK_OTA_FIELDS = exports.FACEBOOK_ANALYTICS_APPLICATION_ID = exports.LOGIN_EXPERIMENTS = exports.EXPERIMENTS = exports.SIGNATURE_VERSION = exports.BREADCRUMB_KEY = exports.SIGNATURE_KEY = exports.APP_VERSION_CODE = exports.APP_VERSION = void 0;
-exports.APP_VERSION = '227.0.0.12.117';
-exports.APP_VERSION_CODE = '323703830';
+exports.APP_VERSION = '121.0.0.29.119';
+exports.APP_VERSION_CODE = '185203708';
 exports.SIGNATURE_KEY = '9193488027538fd3450b83b7d05286d4ca9599a0f7eeed90d8c85925698a05dc';
 exports.BREADCRUMB_KEY = 'iN4$aGr0m';
 exports.SIGNATURE_VERSION = '4';
