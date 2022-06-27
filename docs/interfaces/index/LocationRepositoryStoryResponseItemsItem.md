@@ -37,6 +37,7 @@
 - [reel\_mentions](LocationRepositoryStoryResponseItemsItem.md#reel_mentions)
 - [show\_one\_tap\_fb\_share\_tooltip](LocationRepositoryStoryResponseItemsItem.md#show_one_tap_fb_share_tooltip)
 - [story\_hashtags](LocationRepositoryStoryResponseItemsItem.md#story_hashtags)
+- [story\_link\_stickers](LocationRepositoryStoryResponseItemsItem.md#story_link_stickers)
 - [story\_locations](LocationRepositoryStoryResponseItemsItem.md#story_locations)
 - [supports\_reel\_reactions](LocationRepositoryStoryResponseItemsItem.md#supports_reel_reactions)
 - [taken\_at](LocationRepositoryStoryResponseItemsItem.md#taken_at)

@@ -58,6 +58,7 @@
 - [reel\_mentions](TagFeedResponseItemsItem.md#reel_mentions)
 - [show\_one\_tap\_fb\_share\_tooltip](TagFeedResponseItemsItem.md#show_one_tap_fb_share_tooltip)
 - [story\_hashtags](TagFeedResponseItemsItem.md#story_hashtags)
+- [story\_link\_stickers](TagFeedResponseItemsItem.md#story_link_stickers)
 - [story\_locations](TagFeedResponseItemsItem.md#story_locations)
 - [supports\_reel\_reactions](TagFeedResponseItemsItem.md#supports_reel_reactions)
 - [taken\_at](TagFeedResponseItemsItem.md#taken_at)

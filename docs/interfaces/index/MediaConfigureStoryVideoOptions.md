@@ -43,6 +43,7 @@
 - [story\_countdowns](MediaConfigureStoryVideoOptions.md#story_countdowns)
 - [story\_cta](MediaConfigureStoryVideoOptions.md#story_cta)
 - [story\_hashtags](MediaConfigureStoryVideoOptions.md#story_hashtags)
+- [story\_link\_stickers](MediaConfigureStoryVideoOptions.md#story\_link\_stickers)
 - [story\_locations](MediaConfigureStoryVideoOptions.md#story_locations)
 - [story\_media\_creation\_date](MediaConfigureStoryVideoOptions.md#story_media_creation_date)
 - [story\_polls](MediaConfigureStoryVideoOptions.md#story_polls)
@@ -428,6 +429,20 @@ ___
 #### Inherited from
 
 [MediaConfigureStoryBaseOptions](MediaConfigureStoryBaseOptions.md).[story_hashtags](MediaConfigureStoryBaseOptions.md#story_hashtags)
+
+#### Defined in
+
+[src/types/media.configure-story.options.ts:26](https://github.com/Nerixyz/instagram-private-api/blob/0e0721c/src/types/media.configure-story.options.ts#L26)
+
+___
+
+### story\_link\_stickers
+
+• `Optional` **story\_link\_stickers**: `string` \| [`StoryLinkSticker`](StoryLinkSticker.md)[]
+
+#### Inherited from
+
+[MediaConfigureStoryBaseOptions](MediaConfigureStoryBaseOptions.md).[story_link_stickers](MediaConfigureStoryBaseOptions.md#story_link_stickers)
 
 #### Defined in
 
