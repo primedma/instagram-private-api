@@ -1,0 +1,55 @@
+export interface ClipsFeedResponse {
+  items: ClipsFeedResponseItemsItem[];
+  num_results: any;
+  more_available: any;
+  next_max_id: any;
+  auto_load_more_enabled: any;
+  status: any;
+}
+export interface ClipsFeedResponseItemsItem {
+  taken_at: any;
+  pk: any;
+  id: any;
+  device_timestamp: any;
+  media_type: any;
+  code: any;
+  client_cache_key: any;
+  filter_type: any;
+  comment_likes_enabled: any;
+  comment_threading_enabled: any;
+  has_more_comments: any;
+  max_num_visible_preview_comments: any;
+  preview_comments: any;
+  can_view_more_preview_comments: any;
+  comment_count: any;
+  inline_composer_display_condition: any;
+  inline_composer_imp_trigger_time: any;
+  image_versions2: any;
+  original_width: any;
+  original_height: any;
+  user: any;
+  can_viewer_reshare: any;
+  caption: null | any;
+  caption_is_edited: any;
+  like_count: any;
+  has_liked: any;
+  top_likers: any;
+  facepile_top_likers?: any;
+  direct_reply_to_author_enabled: any;
+  photo_of_you: any;
+  fb_user_tags?: any;
+  can_viewer_save: any;
+  organic_tracking_token: any;
+  next_max_id?: any;
+  carousel_media_count?: any;
+  carousel_media?: any;
+  can_see_insights_as_brand?: any;
+  is_dash_eligible?: any;
+  video_dash_manifest?: any;
+  video_codec?: any;
+  number_of_qualities?: any;
+  video_versions?: any;
+  has_audio?: any;
+  video_duration?: any;
+  view_count?: any;
+}
